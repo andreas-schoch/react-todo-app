@@ -1,0 +1,22 @@
+.main-footer {
+    margin-top: 8rem;
+    text-align: center;
+    /* font-size: 0.7rem; */
+    color: rgb(126, 126, 126);
+    background-color: #444;
+    padding: 1rem;
+    width: 100%;
+    /* height: */
+}
+
+
+.main-footer a {
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    transition: 0.2s color;
+}
+
+.main-footer a:hover {
+    color: white;
+    /* text-decoration: underline; */
+}

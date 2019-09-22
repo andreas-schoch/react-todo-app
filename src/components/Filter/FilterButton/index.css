@@ -1,0 +1,17 @@
+
+.btn-filter {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    flex-grow: 1;
+    border-radius: 7px 7px 0 0;
+    height: 40px;
+    width: 100%;
+    margin: 0 5px;
+    outline: none;
+}
+
+.btn-filter-active {
+    background-color: rgb(237, 243, 221);
+    border-bottom: none;
+    z-index: 2;
+}

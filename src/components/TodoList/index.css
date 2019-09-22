@@ -1,0 +1,15 @@
+.todo-container {
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: rgb(237, 243, 221);
+    margin-top: 0;
+    border-radius: 15px;
+    z-index: 1;
+}

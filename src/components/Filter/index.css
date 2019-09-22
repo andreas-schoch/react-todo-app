@@ -1,0 +1,9 @@
+.filter-container {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: -1px;
+}
+
+.filter-container > span {
+    flex-basis: 250px;
+}
