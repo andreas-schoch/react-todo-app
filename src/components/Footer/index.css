@@ -11,12 +11,12 @@
 
 
 .main-footer a {
-    color: rgb(167, 167, 167);
+    color: white;
     text-decoration: none;
     transition: 0.2s color;
 }
 
 .main-footer a:hover {
-    color: white;
+    color: rgb(167, 167, 167);
     /* text-decoration: underline; */
 }

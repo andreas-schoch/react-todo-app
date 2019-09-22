@@ -22,7 +22,7 @@ class AddTodoForm extends Component {
     render() {
         return (
             <form className='new-todo-form'>
-                <input type='text' placeholder='Enter a new Todo' value={ this.state.todoText } 
+                <input type='text' id='new-todo' aria-label='new-todo' placeholder='Enter a new Todo' value={ this.state.todoText } 
                     onChange={ this.onChangeHandler } className={ this.todoTextValid() ? 'valid' : 'invalid'} />
 
                 <button onClick={ this.addTodo } className='btn btn-add'>Add</button>
